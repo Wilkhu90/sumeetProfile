@@ -26,6 +26,16 @@ body {
 .header {
   border-bottom: 1px solid #e5e5e5;
   margin-bottom: 10px;
+  text-align: -webkit-center;
+  h1{
+    color: white;
+  }
+  pre{
+    width: 482px;
+    background-color: black;
+    border-color: black;
+    color: white;
+  }
 
   /* Make the masthead heading the same height as the navigation */
   h3 {
@@ -68,7 +78,7 @@ body {
 }
 
 /* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 300px) {
   .container {
     max-width: 730px;
   }
@@ -82,10 +92,35 @@ body {
   }
   /* Space out the masthead */
   .header {
+    padding-top: 5px;
     margin-bottom: 30px;
+    background-color: #F77E75;
+    height: 300px;
   }
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+.navbar-default {
+  background-color: #F77E75;
+  border-color: #F77E75;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: #F77E75;
+  border-color: #F77E75;
+  color: white;
+  font-family: Arial,Helvetica,sans-serif;
+  font-weight: 700;
+  font-size: 2.7em;
+}
+
+.navbar-default .navbar-nav > li > a {
+  background-color: #F77E75;
+  border-color: #F77E75;
+  color: white;
+  font-family: Arial,Helvetica,sans-serif;
+  font-weight: 700;
+  font-size: 2.7em;
 }
